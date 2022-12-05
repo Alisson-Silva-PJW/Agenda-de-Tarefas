@@ -1,0 +1,99 @@
+/* reset css*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Geral */
+body {
+    background-color: azure;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 300px;
+}
+
+/* -----------------------------*/
+.container {
+    background-color: aqua;
+    max-width: 600px;
+    margin: 50px;
+    padding: 25px;
+    border-style: groove;
+    border-radius: 15px;
+    border-color: black;
+}
+
+.cabecalho {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.tarefa {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-ta {
+    width: 480px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn-add {
+    width: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    background-color: rgb(94, 251, 62);
+    transition: 1s;
+    transform: scale(1.2) translate(0%, 0%);
+}
+
+.lista-tarefas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-tarefas li {
+    background-color: rgb(164, 255, 255);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-tarefa {
+    font-size: 20px;
+}
+
+.btn-click {
+    width: 35px;
+    padding: 8px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(123, 210, 244);
+}
+
+.btn-click:hover {
+    background-color: rgb(64, 62, 62);
+    color: white;
+    transform: scale(1.2) translate(0%, 0%);
+    transition: 1s;
+}
