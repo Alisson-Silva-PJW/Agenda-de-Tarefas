@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font icones do projeto-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css do projeto-->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- scripts do projeto-->
+    <script src="./js/scripts.js" defer></script>
+    <title>Agenda</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <h1>Agenda</h1>
+            <p>Adicione uma nova tarefa</p>
+        </header> <!-- .cabecalho -->
+        <div class="tarefa">
+            <input type="text" class="input-ta" placeholder="Oque vai fazer ?">
+            <button type="submit"> <i class="btn fa-plus"></i></button>
+        </div> <!-- .tarefa -->
+        <ul class="lista-tarefas">
+            <li>
+                <span class="texto-tarefa"> tarefa 1</span>
+                <div>
+                    <button class="btn-click">
+                        <i class="fa fa-pencil"></i>
+                    </button> <!-- .btn-click -->
+                    <button class="btn-click">
+                        <i class="fa fa-trash"></i>
+                    </button> <!-- .btn-click -->
+                </div>
+            </li>
+        </ul> <!-- .lista-tarefas -->
+    </div> <!-- .container -->
+</body>
+
+</html>
